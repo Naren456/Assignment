@@ -43,7 +43,7 @@ export const deleteNote = async (req, res) => {
   }
 };
 
-// Get All Notes (optional tag filter)
+// Get All Notes 
 export const getNotes = async (req, res) => {
   try {
     const { tag } = req.query;
